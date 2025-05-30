@@ -89,7 +89,7 @@ Didesain untuk peserta lanjutan atau praktisi profesional. Eksploitasi memerluka
 
 ## 🧬 Level: Eksperimental / Real-world Inspired
 
-Menggunakan skenario eksploitasi tingkat lanjut yang terinspirasi dari Pwn2Own dan bug bounty kernel Linux nyata.
+Menggunakan skenario eksploitasi tingkat lanjut yang terinspirasi dari teknik exploitasi baru dan exploitasi cve kernel linux yang populer.
 
 ### 🧪 `bamcross`
 - **Bug**: OOB 0-byte
