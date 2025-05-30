@@ -49,6 +49,12 @@ Masuk ke skenario dunia nyata dengan mitigasi aktif seperti SLUB hardening dan v
 - **Teknik**: `userfaultfd` untuk trigger race reclaim
 - **Goal**: Eksploitasi UAF dengan timing presisi
 
+### 🧪 `bilik_mod`
+- **Bug**: UAF/double free
+- **Objek**: `sk_buff` + `pipe_buffer page`
+- **Teknik**: Reclaim + leak address fisik kaslr
+- **Goal**: modprobe_path overwrite
+
 ### 🧪 `fire-of-salvation`
 - **Bug**: Netfilter UAF sederhana
 - **Objek**: `msg_msg`
