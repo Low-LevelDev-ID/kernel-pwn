@@ -116,9 +116,6 @@ Menggunakan skenario eksploitasi tingkat lanjut yang terinspirasi dari teknik ex
 ---
 
 ## 📘 Tips Belajar
-
-- 🔍 Gunakan `slub_debug`, `kasan`, dan `kmemleak` untuk tracking memory bug
-- 🧵 Gunakan `userfaultfd` untuk eksploitasi berbasis race dan reclaim objek
 - 🧠 Pelajari objek kernel: `msg_msg`, `pipe_buffer`, `tty_struct`, `sk_buff`
 - 📊 Cek cache: `cat /sys/kernel/slab/*/aliases`, `slabinfo`, dan `kmem_cache`
 - 🔐 Lihat struktur `cred`, `task_struct`, dan path seperti `modprobe_path`
