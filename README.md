@@ -11,11 +11,17 @@ Roadmap ini dirancang agar kamu bisa belajar **step-by-step** dengan mengikuti u
 
 Dirancang untuk membangun fondasi eksploitasi kernel seperti buffer overflow, heap overflow, dan use-after-free tanpa mitigasi berat.
 
+### 🧪 `kernel-rop`
+- **Bug**: Stack-based buffer overflow
+- **Primitive**: Overwrite RIP
+- **Teknik**: ROP chain dengan `prepare_kernel_cred` dan `commit_creds`
+- **Goal**: Mendapatkan shell root dari `prepare_kernel_cred` dan `commit_creds`
+
 ### 🧪 `pawnyable-LK01`
 - **Bug**: Stack-based buffer overflow
 - **Primitive**: Overwrite RIP
 - **Teknik**: ROP chain via buffer overflow
-- **Goal**: Mendapatkan shell via kontrol instruksi pointer
+- **Goal**: Mendapatkan shell root via kontrol instruksi pointer
 
 ### 🧪 `pawnyable-LK01-2`
 - **Bug**: Heap overflow
@@ -144,6 +150,13 @@ Atau kunjungi blog writeup kami:
 
 ---
 
+##Referensi
+- https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/?ref=0x434b.dev
+- https://ptr-yudai.hatenablog.com/entry/2023/12/07/221333
+- https://www.willsroot.io/2022/08/reviving-exploits-against-cred-struct.html
+- https://www.willsroot.io/2021/08/corctf-2021-fire-of-salvation-writeup.html
+- https://pawnyable.cafe/
+- https://github.com/KaligulaArmblessed/CTF-Challenges
 ---
 
 
