@@ -150,7 +150,7 @@ Atau kunjungi blog writeup kami:
 
 ---
 
-##Referensi
+## Referensi
 - https://lkmidas.github.io/posts/20210123-linux-kernel-pwn-part-1/?ref=0x434b.dev
 - https://ptr-yudai.hatenablog.com/entry/2023/12/07/221333
 - https://www.willsroot.io/2022/08/reviving-exploits-against-cred-struct.html
